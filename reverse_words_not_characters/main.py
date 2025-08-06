@@ -16,6 +16,7 @@ def reverse_words_not_characters(phrase):
     print('The reverse output is: ' + ' '.join(rev_list_words))
 
 
-        
 
-reverse_words_not_characters('Python is fun')
+
+user_phrase = input('Please enter a phrase: ')
+reverse_words_not_characters(user_phrase)
